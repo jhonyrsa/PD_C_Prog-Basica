@@ -1,9 +1,11 @@
-#include<stdio.h>
+#include <stdio.h>
 
 int main(void){
-    int x;
-    scanf("%d", &x);
-    int quadrado = x*x;
-    printf("%d^2 = %d\n", x, quadrado);
+    float numero;
+    printf("Quadrado de um numero\n");
+    printf("Digite um numero real: ");
+    scanf("%f", &numero);
+    float quadrado = numero*numero;
+    printf("%.2f ^ 2 = %.2f\n", numero, quadrado);
     return 0;
 }

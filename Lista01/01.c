@@ -1,8 +1,9 @@
 #include <stdio.h>
 
 int main(void){
-    int x;
-    scanf("%d", &x);
-    printf("%d\n", x);
+    int numero;
+    printf("Digite um numero inteiro: ");
+    scanf("%d", &numero);
+    printf("O numero digitado eh %d\n", numero);
     return 0;
 }
